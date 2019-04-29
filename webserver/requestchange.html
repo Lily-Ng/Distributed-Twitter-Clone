@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>NYU Twitter Clone</title>
+</head>
+<body>
+	<h1>NYU Twitter Clone</h1>
+	<h5>Inspire. Share. Connect.™</h5>
+	<hr>
+	<div class="menu" style= "text-align:right; list-style: none;">
+		<a href = "mainpage"> Home </a>|
+		<a href = "request_info_change"> Change Profile </a>|
+		<a href = "followinglist"> Following </a>|
+		<a href = "followerlist"> Followers </a>|
+		<a href = "signout"> Log Out</a>
+	</div> 
+	<br/>
+	Request Changes to your account here.
+	<br/><br/>
+	<form action="" method="post">
+		Password: <input type = "password" name = "new_password" maxlength="20"></input><br/>
+		Display Name: <input type = "text" name = "new_display_name" maxlength="20"><br/>
+		Profile: <input type = "text" name = "new_profile" size="100" maxlength="100"><br/>
+		<input type="submit" value="Update">
+	</form>
+	<br/><br/>
+	<form action="deleteaccount" method="post">
+		<input type="submit" value="Terminate Account"> *** this cannot be undone
+	</form>
+</body>
+</html>

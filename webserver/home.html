@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>NYU Twitter Clone</title>
+</head>
+<body>
+	<h1>NYU Twitter Clone</h1>
+	<h5>Inspire. Share. Connect.™</h5>
+	<hr>
+	<div class="menu" style= "text-align:right; list-style: none;">
+		<a href = "mainpage"> Home </a>|
+		<a href = "request_info_change"> Change Profile </a>|
+		<a href = "followinglist"> Following </a>|
+		<a href = "followerlist"> Followers </a>|
+		<a href = "signout"> Log Out</a>
+	</div> 
+	<br/>
+	<form action="tweet" method = "post">
+		Share <input type = "text" name = "tweet_msg" size = "100" maxlength="100"></input><input type="submit" value="Tweet"><br/>
+	</form>
+	<form action="usersearch" method = "post">
+		Find User <input type = "text" name = "targetuser" maxlength="20"></input><input type="submit" value="Search User"><br/><br/>
+	</form>
+</body>
+</html>
