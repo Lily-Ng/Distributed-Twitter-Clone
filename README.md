@@ -2,8 +2,9 @@
 an implementation of social media features (functionality-wise) in GoLang across distributed infrastructure
 
 # Installation
+Download or clone the repository
 ```
-git clone the https://github.com/Lily-Ng/Distributed-Twitter-Clone.git
+git clone https://github.com/Lily-Ng/Distributed-Twitter-Clone.git
 ```
 
 # How to Run
