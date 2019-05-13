@@ -24,4 +24,4 @@ go run webserver.go
 4) The application server(s) can handle requests from any webserver through a defined communication protocol
 
 # Assumptions
-There are multiple geographically distributed application servers, represented by appserver1.go, appserver2.go,and appserver3.go
+There are multiple geographically distributed application servers, represented by appserver1.go, appserver2.go, and appserver3.go
